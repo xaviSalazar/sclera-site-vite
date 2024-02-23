@@ -36,7 +36,7 @@ export function HeroSimple({ title, subtitle }: HeroProps) {
 
     <div className="flex justify-start">
       <h1 
-        className="tapestry-regular gradient-text pt-8 mb-2 text-5_xl sm:text-6_xl md:text-13_xl lg:text-15_xl xl:text-10_custom font-bold leading-tight tracking-tight"
+        className="tapestry-regular gradient-text pt-8 mb-2 text-5_xl sm:text-6_xl md:text-13_xl lg:text-15_xl xl:text-10_custom font-bold leading-tight tracking-tight text-black"
         style={{ transform: `scale(${scale})`, opacity: opacity }}
       >
         {title}

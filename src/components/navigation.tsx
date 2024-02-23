@@ -54,9 +54,8 @@ export function Navigation() {
           <div className="flex items-center justify-center lg:justify-end flex-grow"> {/* Center-aligned title */}
           
             <h1 
-              className="tapestry-regular text-4xl gradient-text lg:mr-[19rem]"
+              className="tapestry-regular text-4xl lg:mr-[19rem] text-black	"
               style={{ opacity: opacity }}
-
             >
               SCLERA
             </h1>
