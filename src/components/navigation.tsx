@@ -51,10 +51,12 @@ export function Navigation() {
           <div className="flex items-center justify-between rounded-full border-b border-foreground/25 bg-background/95 px-3 py-2 shadow-md supports-[backdrop-filter]:bg-background/60 supports-[backdrop-filter]:bg-clip-padding supports-[backdrop-filter]:backdrop-blur sm:rounded-none sm:px-3">
           <div className="container mx-auto flex max-w-6xl justify-between"> {/* Add justify-between here */}
 
-          <div className="flex items-center justify-center flex-grow"> {/* Center-aligned title */}
+          <div className="flex items-center justify-center lg:justify-end flex-grow"> {/* Center-aligned title */}
+          
             <h1 
-              className="font-tapestry text-4xl gradient-text"
+              className="tapestry-regular text-4xl gradient-text lg:mr-[19rem]"
               style={{ opacity: opacity }}
+
             >
               SCLERA
             </h1>
