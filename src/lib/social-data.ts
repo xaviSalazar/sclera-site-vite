@@ -3,18 +3,18 @@ import { SocialProfile } from "@/types";
 export const socialProfiles: SocialProfile[] = [
   {
     name: "instagram",
-    link: "https://instagram.com/thedevdavid",
+    link: "https://instagram.com",
   },
   {
     name: "linkedin",
-    link: "https://linkedin.com/in/thedevdavid",
+    link: "https://linkedin.com",
   },
   {
     name: "threads",
-    link: "https://threads.net/@thedevdavid",
+    link: "https://threads.net",
   },
   {
     name: "youtube",
-    link: "https://youtube.com/@thedevdavid",
+    link: "https://youtube.com",
   },
 ];
