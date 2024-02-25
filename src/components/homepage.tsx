@@ -18,10 +18,12 @@ const HomePage = () => {
             
 
 
-             <div className="w-full bg-white relative flex flex-col md:flex-row items-center justify-center" style={{ minHeight: '50rem' }}>
-                <LazyBackgroundImage img='https://d1d5i0xjsb5dtw.cloudfront.net/sclera/pink-background.jpg'
+             <div className="w-full bg-rose relative flex flex-col md:flex-row items-center justify-center" style={{ minHeight: '50rem' }}>
+
+                <LazyBackgroundImage img='https://d1d5i0xjsb5dtw.cloudfront.net/sclera/pink-background-compressed.jpg'
                                       className="absolute inset-0 bg-gradient-to-b from-transparent to-black"
                                       filter='grayscale(10%) brightness(60%)'
+                                      style={{backgroundAttachment: 'fixed'}}
                 />
                
                {/* <div className="absolute inset-0 bg-gradient-to-b from-transparent to-black"
