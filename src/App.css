@@ -2,6 +2,30 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: 'Foglihtenno06-VyZB';
+  src: url('./fonts/Foglihtenno06-VyZB.otf') format('opentype');
+  /* Additional font properties like font-weight, font-style can be defined here */
+}
+
+.custom-title {
+  font-family: "Foglihtenno06-VyZB", sans-serif;
+  font-weight: 400;
+}
+
+
+.gradient-text{
+  /* Apply gradient background */
+  background: linear-gradient(45deg, #15e3a8, #fff,rgb(131 111 120));
+  
+  /* Set background-clip to text */
+  -webkit-background-clip: text;
+  background-clip: text;
+  
+  /* Ensure the text is visible even if background-clip is not supported */
+  color: transparent;
+}
+
 
 .tapestry-regular {
   font-family: "Tapestry", serif;
@@ -15,7 +39,6 @@ html, body {
   margin: 0;
   display: flex,;
   flex-direction: column;
-  background-color: rgb(254 205 211);
 }
 
 #root {

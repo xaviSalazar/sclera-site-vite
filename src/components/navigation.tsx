@@ -43,7 +43,7 @@ export function Navigation() {
         <>
           <header
                 className={cn(
-                "fixed bg-white inset-x-0 -bottom-32 z-20 mx-auto mb-4 px-4 transition-all duration-1000 animate-out sm:top-0 sm:h-16 sm:px-0 sm:transition-none",
+                "fixed inset-x-0 -bottom-32 z-20 mx-auto mb-4 px-4 transition-all duration-1000 animate-out sm:top-0 sm:h-16 sm:px-0 sm:transition-none",
                 visible && "bottom-0 animate-in",
                 )}
             >
@@ -54,7 +54,7 @@ export function Navigation() {
           <div className="flex items-center justify-center lg:justify-end flex-grow"> {/* Center-aligned title */}
           
             <h1 
-              className="tapestry-regular text-4xl lg:mr-[19rem] text-black	"
+              className="custom-title gradient-text text-4xl lg:mr-[19rem]"
               style={{ opacity: opacity }}
             >
               SCLERA

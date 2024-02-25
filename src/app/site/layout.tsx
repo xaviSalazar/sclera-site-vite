@@ -7,9 +7,9 @@ import {HeroSimple} from "@/components/hero-simple"
 
 const RootLayout = () => {
     return (
-    <div className="flex flex-col w-full sm:pt-[4rem]">
-
+    <div className="flex flex-col w-full sm:pt-[0rem]">
             <Navigation />
+
             <HeroSimple
                 title="SCLERA"
                 subtitle="I'm Amy. Frontend engineer writing code and blog on the internet."
