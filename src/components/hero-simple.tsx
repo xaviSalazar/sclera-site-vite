@@ -32,7 +32,7 @@ export function HeroSimple({ title, subtitle }: HeroProps) {
 
 <div className="w-full bg-white relative flex flex-col items-center justify-start text-center" style={{ minHeight: '20rem', maxHeight: '80vh' }}>
 
-    <LazyBackgroundImage img='https://d1d5i0xjsb5dtw.cloudfront.net/sclera/venetian-hotel-compressed.jpg'
+    <LazyBackgroundImage img='https://d1d5i0xjsb5dtw.cloudfront.net/sclera/venetian-hotel-paint.jpg'
                          className="absolute inset-0 bg-gradient-to-b from-transparent to-black"
                          filter= 'grayscale(65%) brightness(80%)' 
                          style={{backgroundAttachment: 'fixed'}}

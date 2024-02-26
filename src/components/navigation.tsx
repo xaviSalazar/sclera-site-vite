@@ -67,9 +67,9 @@ export function Navigation() {
               <nav className="hidden space-x-6 text-sm font-medium sm:block">
                 <Navbar />
               </nav>
-              <nav className="sm:hidden">
+              {/* <nav className="sm:hidden"> */}
                 {/* <MobileNav /> */}
-              </nav>
+              {/* </nav> */}
             </div>
 
           </div>
