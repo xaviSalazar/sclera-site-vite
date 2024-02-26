@@ -1,6 +1,8 @@
 import React, { useCallback, useEffect, useState } from "react";
 import {cn, debounce} from '@/lib/utils'
 import { Navbar } from "@/components/navbar"
+import { MobileNav } from "@/components/mobile-nav";
+
 
 export function Navigation() {
 
@@ -68,7 +70,7 @@ export function Navigation() {
                 <Navbar />
               </nav>
               <nav className="sm:hidden">
-                {/* <MobileNav /> */}
+                <MobileNav />
               </nav>
             </div>
 

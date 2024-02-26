@@ -10,6 +10,12 @@ export interface ContentNavItem extends NavItem {
   href: string;
 }
 
+export interface MobileLinkProps {
+  onOpenChange?: (open: boolean) => void;
+  children: React.ReactNode;
+  className?: string;
+}
+
 export type SocialProfile = {
     name: string;
     link: string;

@@ -8,7 +8,7 @@ import { socialProfiles } from "./social-data";
 //   `http://localhost:${process.env.PORT || 3000}`;
 
 export const defaultAuthor: AuthorType = {
-  name: "Amy Shields",
+  name: "Sclera",
   handle: "@amyshieldsfake",
   socialProfiles,
   email: "definitelyfake@nevermind.com",
@@ -22,7 +22,7 @@ export const defaultAuthor: AuthorType = {
   },
 };
 
-const defaultTitle = `${defaultAuthor.name}'s Blog`;
+const defaultTitle = `${defaultAuthor.name}`;
 const defaultDescription = `I'm ${defaultAuthor.name}. Building hackin’ cool digital products around the world 🌴.`;
 
 const siteMetadata: SiteMetaData = {
