@@ -30,22 +30,13 @@ export function HeroSimple({ title, subtitle }: HeroProps) {
 
   return (
 
-<div className="w-full bg-white relative flex flex-col items-center justify-start text-center" style={{ minHeight: '20rem', maxHeight: '80vh' }}>
+<div className="w-full h-screen  bg-white relative flex flex-col items-center justify-start text-center" >
 
     <LazyBackgroundImage img='https://d1d5i0xjsb5dtw.cloudfront.net/sclera/venetian-hotel-paint.jpg'
                          className="absolute inset-0 bg-gradient-to-b from-transparent to-black"
                          filter= 'grayscale(65%) brightness(80%)' 
                          style={{backgroundAttachment: 'fixed'}}
     />
-
-    {/* <div className="absolute inset-0 bg-gradient-to-b from-transparent to-black" 
-        style={{ 
-            backgroundImage: `url('https://d1d5i0xjsb5dtw.cloudfront.net/sclera/venetian-hotel.jpg')`, 
-            backgroundSize: 'cover', // Fit the background image to cover the entire container
-            height: '100%',
-            filter: 'grayscale(65%) brightness(80%)' 
-        }}>
-    </div> */}
 
     <div className="flex justify-start">
         <h1 
