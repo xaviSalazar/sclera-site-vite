@@ -24,7 +24,8 @@
     "react-device-detect": "^2.2.3",
     "react-dom": "^18.2.0",
     "simple-icons": "^11.5.0",
-    "tailwind-merge": "^2.2.1"
+    "tailwind-merge": "^2.2.1",
+    "vaul": "^0.9.0"
   },
   "devDependencies": {
     "@types/react": "^18.2.56",
