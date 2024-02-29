@@ -13,6 +13,7 @@ const HomePage = () => {
         <>
             <PresentationImage
                 title="SCLERA"
+                subtitle="PANTONE 2024"
             />
             
             <div className="w-full bg-rose relative flex flex-col md:flex-row items-center justify-center" style={{ minHeight: '50rem' }}>
