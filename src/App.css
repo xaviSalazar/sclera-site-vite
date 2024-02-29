@@ -16,14 +16,15 @@
 
 .gradient-text{
   /* Apply gradient background */
-  background: linear-gradient(45deg, #15e3a8, #fff,rgb(131 111 120));
-  
+  background: linear-gradient(90deg, #7CAA9F, #A4B5A8,#C2BCAF, #DCC3B6, #F9CABF);
+
   /* Set background-clip to text */
   -webkit-background-clip: text;
   background-clip: text;
   
   /* Ensure the text is visible even if background-clip is not supported */
   color: transparent;
+
 }
 
 

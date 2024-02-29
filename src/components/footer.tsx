@@ -6,7 +6,7 @@ import { SocialButton } from "@/components/social-button";
 
 const Footer = () => {
     return (
-      <footer className="mx-auto flex w-full flex-col items-center gap-6 border-t py-6 bg-rose-200">
+      <footer className="mx-auto flex w-full flex-col items-center gap-6 border-t py-6 bg-customRose">
         
         <div className="container flex flex-col items-center justify-between space-y-5 text-center lg:flex-row lg:space-y-0 lg:text-left">
   
