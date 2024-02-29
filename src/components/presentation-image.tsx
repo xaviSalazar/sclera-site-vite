@@ -3,10 +3,9 @@ import LazyBackgroundImage from "@/components/ui/lazy-load-image"
 
 interface HeroProps {
   title: string;
-  subtitle?: string;
 }
 
-export function HeroSimple({ title, subtitle }: HeroProps) {
+export function PresentationImage({ title }: HeroProps) {
 
   const [scrollY, setScrollY] = React.useState(0);
 

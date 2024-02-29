@@ -1,5 +1,5 @@
 import React from 'react';
-import { HeroSimple } from "@/components/hero-simple"
+import { PresentationImage } from "@/components/presentation-image"
 import { isMobile } from 'react-device-detect';
 
 import LazyBackgroundImage from "@/components/ui/lazy-load-image"
@@ -11,9 +11,8 @@ import LazyBackgroundImage from "@/components/ui/lazy-load-image"
 const HomePage = () => {
     return (
         <>
-            <HeroSimple
+            <PresentationImage
                 title="SCLERA"
-                subtitle="I'm Amy. Frontend engineer writing code and blog on the internet."
             />
             
             <div className="w-full bg-rose relative flex flex-col md:flex-row items-center justify-center" style={{ minHeight: '50rem' }}>
