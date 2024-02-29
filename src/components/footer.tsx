@@ -23,7 +23,7 @@ const Footer = () => {
                 />
               ))}
 
-              <CopyButton size="icon" variant="ghost" className="hover:text-foreground h-15 w-15 bg-red-200" copyText={defaultAuthor.email}>
+              <CopyButton size="icon" variant="ghost" className="hover:text-foreground h-15 w-15 bg-customRose" copyText={defaultAuthor.email}>
                 <Mail />
                 <span className="sr-only">Email address</span>
               </CopyButton>

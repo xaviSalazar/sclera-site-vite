@@ -46,12 +46,13 @@ export function Navigation() {
         <>
           <header
                 className={cn(
-                "fixed inset-x-0 -bottom-32 z-20 mx-auto mb-4 px-4 transition-all duration-1000 animate-out sm:top-0 sm:h-16 sm:px-0 sm:transition-none",
+                "fixed inset-x-0 -bottom-32 z-20 mx-auto mb-4 px-4 transition-all duration-1000 animate-out top-0 sm:h-16 sm:px-0 sm:transition-none",
                 visible && "bottom-0 animate-in",
                 )}
             >
 
         <div className="flex items-center justify-between rounded-full border-b border-foreground/25 bg-background/95 px-3 py-2 shadow-md supports-[backdrop-filter]:bg-background/60 supports-[backdrop-filter]:bg-clip-padding supports-[backdrop-filter]:backdrop-blur sm:rounded-none sm:px-3"
+
               style={{ opacity: scrollY > 0 ? 100 : 0 }}>
             <div className="container mx-auto flex max-w-6xl justify-between">
                   <nav className="hidden sm:block">
@@ -75,6 +76,7 @@ export function Navigation() {
                   </nav>
                 </div>
             </div>
+            
           </div>
 
             </header>

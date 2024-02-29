@@ -7,8 +7,9 @@ export default {
   theme: {
     extend: {
       fontSize: {
-        '10_custom': '10rem',
-        '20_custom': '20rem',
+        '10-rem': '10rem',
+        '8-rem': '8rem',
+        '20-rem': '20rem',
         '2-8rem': '2.8rem',
       },
       colors: {

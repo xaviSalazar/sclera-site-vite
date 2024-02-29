@@ -43,7 +43,7 @@ export function PresentationImage({ title, subtitle }: HeroProps) {
 
       <div className="flex flex-col items-center h-full justify-start">
         <h1
-          className="custom-title gradient-text pt-[9rem] mb-2 text-5_xl sm:text-6_xl md:text-13_xl lg:text-15_xl xl:text-20_custom"
+          className="custom-title gradient-text pt-[9rem] mb-2 text-8-rem sm:text-6_xl md:text-13_xl lg:text-15_xl xl:text-20-rem"
           style={{ transform: `scale(${scale})`, opacity: opacity }}
         >
           {title}
@@ -51,7 +51,7 @@ export function PresentationImage({ title, subtitle }: HeroProps) {
 
 <div className="mt-auto mb-10">
         <h1
-          className="mt-auto text-white"
+          className="mt-auto text-white text-4xl lg:text-5xl"
           style={{ transform: `scale(1)` }}
         >
           {subtitle}
