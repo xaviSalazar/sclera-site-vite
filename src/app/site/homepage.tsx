@@ -4,10 +4,6 @@ import { isMobile } from 'react-device-detect';
 
 import LazyBackgroundImage from "@/components/ui/lazy-load-image"
 
-
-
-{/* <div className="flex flex-row items-center justify-center w-full h-[50rem]"> */ }
-
 const HomePage = () => {
     return (
         <>
